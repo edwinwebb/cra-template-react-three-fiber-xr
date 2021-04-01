@@ -1,4 +1,8 @@
-# RTF Seed
+# cra-template-react-three-fiber-xr
+- [react-three-fiber](https://github.com/pmndrs/react-three-fiber)
+- [react-three/xr](https://github.com/pmndrs/react-xr)
+
+`npx create-react-app my-app --template file:./cra-template-react-three-fiber-xr`
 
 ## Create React App
 
