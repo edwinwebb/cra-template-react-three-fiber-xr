@@ -2,7 +2,7 @@
   "package": {
     "dependencies": {
       "three": "latest",
-      "react-three-fiber": "latest",
+      "@react-three/fiber": "latest",
       "@react-three/xr": "latest"
     },
     "eslintConfig": {
