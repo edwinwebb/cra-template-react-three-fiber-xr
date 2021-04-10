@@ -9,7 +9,7 @@
     "@react-three/fiber",
     "@react-three/xr"
   ],
-  "description": "The base template for cra-template-react-three-fiber-xr",
+  "description": "React create app template",
   "repository": {
     "type": "git",
     "url": "https://github.com/edwinwebb/cra-template-react-three-fiber-xr"

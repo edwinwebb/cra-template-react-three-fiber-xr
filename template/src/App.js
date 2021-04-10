@@ -1,12 +1,13 @@
-import { VRCanvas } from '@react-three/xr'
+import { VRCanvas, DefaultXRControllers } from '@react-three/xr'
 
 function App() {
   return (
     <VRCanvas>
-      <mesh>
-        <sphereBufferGeometry args={[2,16,16]} />
+      <mesh position={[0, 1, -2]}>
+        <sphereBufferGeometry args={[0.5,16,16]} />
         <meshBasicMaterial color={"white"} wireframe={true} />
       </mesh>
+      <DefaultXRControllers />
     </VRCanvas>
   );
 }
